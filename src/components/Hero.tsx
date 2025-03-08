@@ -44,17 +44,17 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="home" className="relative min-h-screen flex overflow-x-hidden items-center pt-16 overflow-hidden bg-gray-100">
+    <section id="home" className="relative min-h-screen md:mt-6 flex overflow-x-hidden items-center pt-16 overflow-hidden bg-gray-100">
       <div className="container mx-auto px-4 md:px-6 z-10 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center overflow-hidden">
           <div ref={textRef} className="order-2 lg:order-1 w-full">
              <h1 className='hidden md:block text-[22px]  md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6 '>
-                Welcome to IPGYAN TECHNOLOGIES 
+                Welcome To IPGYAN TECHNOLOGIES 
             </h1>
             <h1 className="sm:block md:hidden text-5xl mb-2 font-bold text-gray-600  text-center">
-              Welcome to <br/>
+              Welcome To <br/>
             </h1>
-            <h1 className="sm:block md:hidden text-4xl ml-2  mb-4 font-bold text-gray-600  text-center">IPGYAN TECHNOLOGIES </h1>
+            <span className="sm:block md:hidden text-4xl ml-2  mb-4 font-bold text-gray-600  text-center">IPGYAN TECHNOLOGIES </span>
             
            
             <p className="text-lg text-gray-700 mb-8 text-justify font-poppins leading-10">
@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
             <img 
               src="/image1.jpeg" 
               alt="Legal Tech Innovation" 
-              className="w-full md:h-[450px] h-[300px] object-cover rounded-lg shadow-lg relative z-10"
+              className="w-full md:h-[500px] h-[300px] object-cover rounded-lg shadow-lg relative z-10"
             />
           </div>
         </div>
