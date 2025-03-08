@@ -48,12 +48,14 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 z-10 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center overflow-hidden">
           <div ref={textRef} className="order-2 lg:order-1 w-full">
-             <h1 className='sm:block md:hidden text-3xl ml-2  mb-4 font-bold text-gray-600  text-center '>
+             <h1 className='hidden md:block text-[22px] text-pretty md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6 '>
                 Welcome to IPGYAN TECHNOLOGIES 
             </h1>
-            <h1 className=" hidden md:block text-[22px] text-pretty md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6">
-              Welcome to <br/> <br/>IPGYAN TECHNOLOGIES 
+            <h1 className="sm:block md:hidden text-5xl mb-2 font-bold text-gray-600  text-center">
+              Welcome to <br/>
             </h1>
+            <h1 className="sm:block md:hidden text-4xl ml-2  mb-4 font-bold text-gray-600  text-center">IPGYAN TECHNOLOGIES </h1>
+            
            
             <p className="text-lg text-navy/80 mb-8 text-justify font-inter leading-relaxed">
               IPGYAN TECHNOLOGIES PRIVATE LIMITED – where innovation meets legal expertise. As a forward-thinking startup, we are revolutionizing the legal landscape by identifying real-world issues and solving them with cutting-edge technology. Our mission is to simplify and transform the way legal processes work, making law more accessible and efficient for everyone.
