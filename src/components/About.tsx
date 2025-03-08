@@ -62,10 +62,10 @@ const About: React.FC = () => {
         </div>
 
         <div ref={textRef} className="text-gray-100 bg-gray-100 space-y-6">
-          <p className="text-lg text-navy/80 mb-8 text-justify font-inter leading-relaxed bg-gray-100 ">
+          <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
             At IPGYAN Technologies, we believe that the future of law lies in technology. Our team is dedicated to creating disruptive legal tech products that not only streamline legal procedures but also enhance legal research, compliance, and management.
           </p>
-          <p className="text-lg text-navy/80 mb-8 text-justify font-inter leading-relaxed bg-gray-100 ">
+          <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
             We combine deep legal insights with innovative tech solutions to address challenges in the legal realm and drive meaningful change. With a commitment to excellence and a passion for innovation, we are continuously exploring new avenues to redefine the legal industry.
           </p>
         </div>

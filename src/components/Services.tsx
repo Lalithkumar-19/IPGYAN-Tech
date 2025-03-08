@@ -36,10 +36,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon,link
   return (
     <div ref={cardRef} className="bg-gray-100  p-6 rounded-lg shadow-card hover:shadow-xl transition-shadow duration-300 border border-gray-200 h-full font-sans">
       <div className="text-gray-600 mb-4">{icon}</div>
-      {link?<a className="text-2xl font-bold mb-3 text-navy font-serif cursor-pointer" href={link}>{title}</a>:
-      <h1 className='text-2xl font-bold mb-3 text-navy font-serif cursor-pointer'> {title}</h1>
+      {link?<a className="text-2xl font-bold mb-3 text-gray-600 font-poppins cursor-pointer" href={link}>{title}</a>:
+      <h1 className='text-2xl font-bold mb-3 text-gray-600 font-poppins cursor-pointer'> {title}</h1>
       }
-      <p className="max-w-2xl mx-auto font-light leading-10 text-poppins text-lg text-navy/80 mb-8  font-inter">{description}</p>
+      <p className="max-w-2xl mx-auto  text-justify font-light leading-10 text-poppins text-lg text-gray-600 mb-8  font-poppins">{description}</p>
     </div>
   );
 };
@@ -71,12 +71,12 @@ const Services: React.FC = () => {
   ];
 
   return (
-    <section ref={sectionRef} id="services" className="py-4 bg-gray-100 font-sans">
+    <section ref={sectionRef} id="services" className="py-4 bg-gray-100 font-poppins">
       <div className="section-container">
         <div className="text-center mb-16 cursor-pointer">
           
-          <h2 className="text-4xl font-extrabold text-navy mb-4 font-serif underline underline-offset-8 text-poppins">What We Build</h2>
-          <p className="max-w-2xl mx-auto font-light leading-10 text-poppins text-lg text-navy/80 mb-8  font-inter">
+          <h2 className="text-4xl font-extrabold text-navy mb-4  underline underline-offset-8 font-poppins">What We Build</h2>
+          <p className="max-w-2xl mx-auto font-light leading-10 text-poppins text-lg text-gray-600 mb-8  font-poppins">
             We specialize in developing legal technology products that span multiple segments of the legal sector. Our portfolio includes innovative tools designed to address complex legal challenges with precision and ease.
           </p>
         </div>
