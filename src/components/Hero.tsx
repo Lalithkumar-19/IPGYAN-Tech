@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center overflow-hidden">
           <div ref={textRef} className="order-2 lg:order-1 w-full">
 
-            <h1 className="text-[25px] text-pretty md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6">
+            <h1 className="text-[22px] text-pretty md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6">
               Welcome to IPGYAN TECHNOLOGIES 
             </h1>
             <p className="text-lg text-navy/80 mb-8 text-justify font-inter leading-relaxed">

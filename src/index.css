@@ -89,7 +89,11 @@
     transform: translateY(0);
   }
 }
+
 html,body,.root{
   overflow-x: hidden;
 }
+
+
+
 
