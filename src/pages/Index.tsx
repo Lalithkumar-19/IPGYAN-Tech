@@ -12,7 +12,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen relative bg-white">
+    <div className="min-h-screen relative bg-white overflow-x-hidden">
       <Hero />
       <About/>
       <Services />
