@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             <h1 className="sm:block md:hidden text-4xl ml-2  mb-4 font-bold text-gray-600  text-center">IPGYAN TECHNOLOGIES </h1>
             
            
-            <p className="text-lg text-gray-700 mb-8 text-justify font-roboto leading-10 hyphens-auto max-w-prose">
+            <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
               IPGYAN TECHNOLOGIES PRIVATE LIMITED – where innovation meets legal expertise. As a forward-thinking startup, we are revolutionizing the legal landscape by identifying real-world issues and solving them with cutting-edge technology. Our mission is to simplify and transform the way legal processes work, making law more accessible and efficient for everyone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 place-content-center lg:place-content-start">
@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
           
             <img 
               src="/image1.jpeg" 
-              alt="" 
+              alt="IPGYAN TECHNOLOGIES" 
               className="w-full md:h-[450px] h-[400px] object-cover rounded-lg shadow-lg relative z-10"
             />
           </div>
