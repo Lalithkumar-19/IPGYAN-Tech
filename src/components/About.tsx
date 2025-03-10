@@ -55,7 +55,7 @@ const About: React.FC = () => {
           <div className="absolute top-0 left-0 w-48 h-48 bg-gray-50 rounded-lg -z-10"></div>
           <img 
             src="/image2.jpeg" 
-            alt="Legal Tech Team" 
+            alt="IPGYAN TECHNOLOGIES" 
             className="w-full h-auto object-cover rounded-lg shadow-xl"
           />
           <div className="absolute bottom-0 right-0 w-24 h-24 border-2 border-gray-100 rounded-lg -z-10"></div>
