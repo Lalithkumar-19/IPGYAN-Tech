@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
         {/* Mobile Menu Button */}
         <button 
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)} 
-          className="md:hidden text-gray-600 hover:text-white transition-colors"
+          className="md:hidden text-gray-600 hover:text-gray-600 transition-colors"
           aria-label="Toggle menu"
         >
           {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -83,10 +83,8 @@ const Navbar: React.FC = () => {
       >
        
         <div className="flex flex-col space-y-6 items-center bg-gray-100 text-lg mt-10">
-          <button onClick={() => scrollToSection('home')} className="nav-link w-20 text-center py-3">Home</button>
-          <button onClick={() => scrollToSection('services')} className="nav-link w-20 text-center py-3">Products</button>
-          <button onClick={() => scrollToSection('about')} className="nav-link w-20 text-center py-3">About</button>
-          <button onClick={() => scrollToSection('contact')} className="nav-link w-20 text-center py-3">Contact</button>
+         <button onClick={() => scrollToSection('home')} className="nav-link">Home</button>
+          <button onClick={() => scrollToSection('blog')} className="nav-link">Blog</button>
         </div>
       </div>
     </nav>
