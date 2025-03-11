@@ -56,8 +56,8 @@ const Footer: React.FC = () => {
                 <span className="text-white/70 hover:text-white">4th Floor, Unit No 405-411, Bizness Square,HNO.1-98/3/5/23 TO 27,Jubilee Enclave, SY Nos 66&67, Madhapur, Serlingampally Mandal, RR DIST, Hyderabad, Telangana- 500081</span>
               </li>
               <li className="flex items-center">
-                <span className="mr-3">📞</span>
-                <span className="text-white/70 hover:text-white">03335655465</span>
+                <span className="mr-3">📞 <i className="fab fa-whatsapp"></i></span>
+                <span className="text-white/70 hover:text-white">7061034958</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-3">✉️</span>

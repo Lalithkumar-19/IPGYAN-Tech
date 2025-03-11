@@ -8,7 +8,7 @@ const ContactUs = () => {
           Reach out to us for personalized consultations, product demonstrations, or any inquiries related to our legal technology solutions.
         </p>
         <p className="max-w-5xl text-justify font-poppins  ibm-plex-sans mx-auto font-light leading-10 text-lg text-gray-700 mb-8  ">
-          Contact Us Today to explore how <strong>IPGYAN Technologies</strong> can help you transform your legal processes and empower your legal strategy.
+          Contact Us Today to explore how <strong>ipgyan Technologies</strong> can help you transform your legal processes and empower your legal strategy.
         </p>
          <p className="max-w-5xl text-justify ibm-plex-sans mx-auto  leading-10 font-poppins text-lg text-gray-600 mb-8  ">
         At IPGYAN TECHNOLOGIES PRIVATE LIMITED, we are driven by a passion for innovation and a vision to revolutionize the legal field. Explore our website, discover our groundbreaking products, and join us on our journey to redefine the future of law.
@@ -24,7 +24,7 @@ const ContactUs = () => {
         </div>
         <div className="bg-gray-100  shadow-2xl md:w-[50%] p-6 rounded-lg text-center">
           <h3 className="text-2xl font-bold mb-2">Phone</h3>
-          <p className="max-w-6xl text-center font-poppins  ibm-plex-sans mx-auto leading-10 text-poppins text-lg text-gray-600 mb-8 " >+91 98765 43210</p>
+          <p className="max-w-6xl text-center font-poppins  ibm-plex-sans mx-auto leading-10 text-poppins text-lg text-gray-600 mb-8 " >+91 7061034958</p>
         </div>
 
         </div>

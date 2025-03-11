@@ -62,9 +62,7 @@ const Navbar: React.FC = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10">
           <button onClick={() => scrollToSection('home')} className="nav-link">Home</button>
-          <button onClick={() => scrollToSection('services')} className="nav-link">Products</button>
-          <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
-          <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
+          <button onClick={() => scrollToSection('blog')} className="nav-link">Blog</button>
         </div>
 
         {/* Mobile Menu Button */}

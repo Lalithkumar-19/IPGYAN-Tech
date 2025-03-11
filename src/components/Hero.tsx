@@ -49,12 +49,12 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center overflow-hidden">
           <div ref={textRef} className="order-2 lg:order-1 w-full">
              <h1 className='hidden md:block text-[22px]  md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6 '>
-                Welcome to IPGYAN TECHNOLOGIES 
+                Welcome to <span className="text-5xl leading-4 playwrite-it-moderna-regular">IPGYAN TECHNOLOGIES </span>
             </h1>
             <h1 className="sm:block md:hidden text-5xl mb-2 font-bold text-gray-600  text-center">
               Welcome to <br/>
             </h1>
-            <h1 className="sm:block md:hidden text-4xl ml-2  mb-4 font-bold text-gray-600  text-center">IPGYAN TECHNOLOGIES </h1>
+            <h1 className="sm:block md:hidden text-4xl ml-2 playwrite-it-moderna-regular mb-4 font-playwrite text-gray-600  text-center">IPGYAN TECHNOLOGIES </h1>
             
            
             <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">

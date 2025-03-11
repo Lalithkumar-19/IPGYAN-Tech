@@ -39,7 +39,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon,link
       {link?<a className="text-2xl font-bold mb-3 text-gray-600 font-poppins cursor-pointer" href={link}>{title}</a>:
       <h1 className='text-2xl font-bold mb-3 text-gray-600 font-poppins cursor-pointer'> {title}</h1>
       }
-      <p className="max-w-2xl mx-auto  text-justify font-light leading-10 text-poppins text-lg text-gray-600 mb-8  font-poppins">{description}</p>
+      <p className="max-w-2xl mx-auto  text-justify font-light leading-10 text-poppins text-lg text-gray-600 mb-8  font-poppins" dangerouslySetInnerHTML={{__html:description}}/>
     </div>
   );
 };
@@ -59,7 +59,17 @@ const Services: React.FC = () => {
   const services = [
     {
       title: "Intellectual Property (IP)",
-      description: "Our pioneering product, KOPYRIGHT, is the first homegrown legal tech solution in the intellectual property segment. Designed to safeguard your creative assets, KOPYRIGHT leverages advanced technology to ensure your intellectual property is protected in today’s fast-evolving digital world.",
+      description: `
+  Our pioneering product, 
+  <a href="https://www.kopyright.in/" target="_blank" style="color: blue; text-decoration: underline; font-weight: bold;">
+    KOPYRIGHT
+  </a>, 
+  is the first homegrown legal tech solution in the intellectual property segment. Designed to safeguard your creative assets, 
+  <a href="https://www.kopyright.in/" target="_blank" style="color: blue; text-decoration: underline; font-weight: bold;">
+    KOPYRIGHT
+  </a> 
+  leverages advanced technology to ensure your intellectual property is protected in today’s fast-evolving digital world.
+`,
       icon: <Shield size={40} />, 
       link:"https://www.kopyright.in/"
     },

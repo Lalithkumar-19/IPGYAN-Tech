@@ -50,6 +50,8 @@ export default {
 				playfair: ['Playfair Display', 'serif'],
 				inter: ['Inter', 'sans-serif'],
 				poppins: ['Poppins', 'sans-serif'],
+                cursive: ['Dancing Script', 'cursive'],
+				playwrite: ['"Playwrite Italia Moderna"', 'cursive'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
