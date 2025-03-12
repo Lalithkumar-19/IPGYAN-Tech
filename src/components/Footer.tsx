@@ -61,7 +61,8 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <span className="mr-3">✉️</span>
-                <span className="text-white/70 hover:text-white">contact@ipgyan.com</span>
+               <a href="mailto:Ipgyantechnologies@gmail.com" className="text-white/70 hover:text-white">
+                 Ipgyantechnologies@gmail.com</a>
               </li>
             </ul>
           </div>
