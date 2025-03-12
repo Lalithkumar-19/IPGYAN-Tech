@@ -13,12 +13,13 @@ const blogData = [
               background-color: transparent;
               padding: 4px;
             }
-            h3 {
+            h3 { 
               color: #444;
               mt:2.6;
               font-weight:600;
-              font-size:20px;
-
+              font-size:18px;
+              word-spacing:normal;
+              display:inline-block;
 
             }
             p {
@@ -35,16 +36,16 @@ const blogData = [
           <h3>1. AI-Powered Legal Research & Contract Analysis</h3>
           <p>Gone are the days of sifting through endless case files. Today, AI transforms legal research by quickly scanning vast databases to deliver pinpoint-accurate results. Automated contract analysis tools are a game changer too—they highlight critical clauses, assess risks, and ensure compliance with lightning speed. This means more time for strategic legal thinking and less time on repetitive tasks.</p>
 
-          <h3>2. Virtual Legal Assistants: The New Colleague</h3>
+          <h3>2.Virtual Legal Assistants: The New Colleague</h3>
           <p>Imagine a tireless assistant who’s available 24/7. Virtual legal assistants (VLAs) are making that a reality. They manage schedules, answer routine queries, and even kickstart document reviews, offering real-time support that enhances client communication. Whether you're in Mumbai or Manhattan, VLAs are becoming indispensable for modern legal practices.</p>
 
-          <h3>3. Streamlined Workflows for Maximum Efficiency</h3>
+          <h3>3.Streamlined Workflows for Maximum Efficiency</h3>
           <p>Automation is the engine that powers modern legal operations. By integrating automated workflows—from document management to case tracking—lawyers can eliminate manual errors and focus on what truly matters: winning cases and advising clients. This boost in efficiency is evident in both burgeoning Indian legal tech firms and established global legal enterprises.</p>
 
-          <h3>India’s Dynamic Legal Tech Landscape</h3>
+          <h3>4.India’s Dynamic Legal Tech Landscape</h3>
           <p>India is rapidly emerging as a hub for legal tech innovation. With a vibrant ecosystem of startups and tech enthusiasts, Indian firms are developing cutting-edge solutions tailored to local needs while also setting trends on the global stage. These innovations are not only modernizing legal processes but also making legal services more accessible and affordable.</p>
 
-          <h3>Global Trends: A Future Defined by Innovation</h3>
+          <h3>5.Global Trends: A Future Defined by Innovation</h3>
           <p>Internationally, the legal sector is embracing technology at an unprecedented pace. From automating routine tasks to harnessing AI for predictive analytics, law firms worldwide are prioritizing efficiency and accuracy. The cross-pollination of ideas between Indian innovators and global industry leaders is fueling a wave of legal tech breakthroughs that promise to redefine the future of law.</p>
 
           <p>In this era of digital transformation, AI and automation are not just buzzwords—they are the cornerstones of a smarter, more responsive legal industry. Embrace the change, leverage technology, and join the revolution that is transforming legal services both in India and around the globe.</p>
@@ -65,10 +66,12 @@ const blogData = [
               padding: 4px;
             }
             h3 {
-              color: #444;
+             color: #444;
               mt:2.6;
               font-weight:600;
-              font-size:20px;
+              font-size:18px;
+              word-spacing:normal;
+              display:inline-block;
 
 
             }
@@ -124,13 +127,13 @@ const blogData = [
               background-color: transparent;
               padding: 4px;
             }
-            h3 {
+            h3{
               color: #444;
               mt:2.6;
               font-weight:600;
-              font-size:20px;
-
-
+              font-size:18px;
+              word-spacing:normal;
+              display:inline-block;
             }
             p {
               color: #666;
@@ -203,7 +206,7 @@ const BlogPage :React.FC= () => {
             >
            
               <div className="lg:p-6">
-                <h3 className="lg:text-3xl  text-2xl text-start mb-7  font-bold text-gray-600 lg:line-clamp-2  font-poppins">
+                <h3 className="lg:text-3xl  text-2xl text-start mb-7 font-bold text-gray-600 lg:line-clamp-2  font-poppins">
                   {blog.title}
                 </h3>
                 <p className="text-gray-600 mt-2 text-justify  text-lg mb-8  font-poppins leading-8 " dangerouslySetInnerHTML={{__html:blog.description}}></p>
