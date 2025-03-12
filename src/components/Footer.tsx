@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-xl font-semibold mb-4 text-white">
-              IPGYAN TECHNOLOGIES
+              Ipgyan Technologies
             </h3>
             <p className="text-white/70 mb-6 text-justify">
               Our mission is to simplify and transform the way legal processes work, making law more accessible and efficient for everyone

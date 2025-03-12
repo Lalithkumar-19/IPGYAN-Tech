@@ -55,7 +55,7 @@ const About: React.FC = () => {
           <div className="absolute top-0 left-0 w-48 h-48 bg-gray-50 rounded-lg -z-10"></div>
           <img 
             src="/image2.jpeg" 
-            alt="IPGYAN TECHNOLOGIES" 
+            alt="Ipgyan Technologies" 
             className="w-full h-auto object-cover rounded-lg shadow-xl"
           />
           <div className="absolute bottom-0 right-0 w-24 h-24 border-2 border-gray-100 rounded-lg -z-10"></div>
@@ -63,7 +63,7 @@ const About: React.FC = () => {
 
         <div ref={textRef} className="text-gray-100 bg-gray-100 space-y-6">
           <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
-            At IPGYAN Technologies, we believe that the future of law lies in technology. Our team is dedicated to creating disruptive legal tech products that not only streamline legal procedures but also enhance legal research, compliance, and management.
+            At Ipgyan Technologies, we believe that the future of law lies in technology. Our team is dedicated to creating disruptive legal tech products that not only streamline legal procedures but also enhance legal research, compliance, and management.
           </p>
           <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
             We combine deep legal insights with innovative tech solutions to address challenges in the legal realm and drive meaningful change. With a commitment to excellence and a passion for innovation, we are continuously exploring new avenues to redefine the legal industry.

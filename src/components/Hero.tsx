@@ -49,16 +49,16 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center overflow-hidden">
           <div ref={textRef} className="order-2 lg:order-1 w-full">
              <h1 className='hidden md:block text-[22px]  md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6 '>
-                Welcome to <span className="text-5xl leading-4 playwrite-it-moderna-regular">IPGYAN TECHNOLOGIES </span>
+                Welcome to <span className="text-6xl leading-4 ">Ipgyan Technologies </span>
             </h1>
             <h1 className="sm:block md:hidden text-5xl mb-2 font-bold text-gray-600  text-center">
               Welcome to <br/>
             </h1>
-            <h1 className="sm:block md:hidden text-4xl ml-2 playwrite-it-moderna-regular mb-4 font-playwrite text-gray-600  text-center">IPGYAN TECHNOLOGIES </h1>
+            <h1 className="sm:block md:hidden text-4xl ml-2 playwrite-it-moderna-regular mb-4 font-playwrite text-gray-600  text-center lowercase">Ipgyan Technologies </h1>
             
            
             <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
-              IPGYAN TECHNOLOGIES PRIVATE LIMITED – where innovation meets legal expertise. As a forward-thinking startup, we are revolutionizing the legal landscape by identifying real-world issues and solving them with cutting-edge technology. Our mission is to simplify and transform the way legal processes work, making law more accessible and efficient for everyone.
+             Ipgyan Technologies Private Limited – where innovation meets legal expertise. As a forward-thinking startup, we are revolutionizing the legal landscape by identifying real-world issues and solving them with cutting-edge technology. Our mission is to simplify and transform the way legal processes work, making law more accessible and efficient for everyone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 place-content-center lg:place-content-start">
               <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} 
