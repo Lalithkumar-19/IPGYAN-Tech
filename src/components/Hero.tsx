@@ -53,10 +53,10 @@ const Hero: React.FC = () => {
                 Welcome to <span className="text-6xl leading-4 ">Ipgyan Technologies </span>
             </h1>
 
-            <h1 className="sm:block md:hidden  font-bold  font-poppins mb-4 text-5xl  text-gray-600  text-center">
+            <h1 className="sm:block md:hidden  font-bold  font-poppins m text-5xl  text-gray-600  text-center">
               Welcome to 
             </h1>
-            <h1 className="sm:block md:hidden  ml-2  font-bold mb-4 text-4xl  text-gray-600  text-center ">Ipgyan Technologies </h1>
+            <h1 className="sm:block md:hidden  ml-2  font-bold mb-4 text-5xl  text-gray-600  text-center ">Ipgyan Technologies </h1>
             
            
             <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
