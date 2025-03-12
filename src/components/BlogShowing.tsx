@@ -53,7 +53,7 @@ const BlogShowing = () => {
                 <h3 className="text-xl font-semibold text-gray-600 line-clamp-2 font-poppins">
                   {blog.title}
                 </h3>
-                <p className="text-gray-600 mt-2 text-justify line-clamp-[10] text-lg mb-8  font-poppins leading-8 ">{blog.description}</p>
+                <p className="mt-2  line-clamp-[10]  text-gray-600  text-justify  leading-10 b  mb-8  font-poppins  ">{blog.description}</p>
                 <a
                   href={blog.link}
                   className="inline-block mt-4 px-6 py-3 bg-gray-700 text-white font-medium rounded-md hover:bg-gray-800 transition-all transform hover:scale-[1.02] shadow-lg"
