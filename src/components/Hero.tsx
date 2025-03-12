@@ -48,13 +48,15 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 z-10 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center overflow-hidden">
           <div ref={textRef} className="order-2 lg:order-1 w-full">
-             <h1 className='hidden md:block text-[22px]  md:text-4xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6 '>
+
+             <h1 className='hidden md:block text-[22px]  md:text-6xl text-gray-600  text-center lg:text-start  lg:text-6xl font-bold leading- mb-6 '>
                 Welcome to <span className="text-6xl leading-4 ">Ipgyan Technologies </span>
             </h1>
-            <h1 className="sm:block md:hidden text-5xl mb-2 font-bold text-gray-600  text-center">
-              Welcome to <br/>
+
+            <h1 className="sm:block md:hidden  font-bold  font-poppins mb-4 text-5xl  text-gray-600  text-center">
+              Welcome to 
             </h1>
-            <h1 className="sm:block md:hidden text-4xl ml-2 playwrite-it-moderna-regular mb-4 font-playwrite text-gray-600  text-center lowercase">Ipgyan Technologies </h1>
+            <h1 className="sm:block md:hidden  ml-2  font-bold mb-4 text-4xl  text-gray-600  text-center ">Ipgyan Technologies </h1>
             
            
             <p className="text-lg text-gray-600 mb-8 text-justify font-poppins leading-10 bg-gray-100 ">
